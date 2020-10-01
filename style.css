@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box
+}
+
+
+/* custom css */
+.jumbotron{
+    background-color: #f4511e;
+    color: white;
+    /* text-align: center; */
+
+}
+.jumbotron .container{
+    text-align: center;
+}
+.jumbotron .subs-btn{
+    background-color: tomato;
+    color: white;
+}
+.jumbotron .subs-btn:hover{
+    background-color: red;
+    
+}
+.jumbotron .subs-btn:focus{
+    background-color: red;
+}
+
+
+#about .big-size{
+    font-size: 200px !important;
+    color: #f4511e;
+}
+
+#about .touch-btn{
+    font-size: 22px;
+    border-color: grey;
+}
+
+
+#values{
+    background-color: #f6f6f6;
+}
