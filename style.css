@@ -10,6 +10,7 @@ body{
     /* text-align: center; */
 
 }
+
 .jumbotron .container{
     text-align: center;
 }
@@ -26,11 +27,10 @@ body{
 }
 
 
-#about .big-size{
+#about .big-size-fa{
     font-size: 200px !important;
     color: #f4511e;
 }
-
 #about .touch-btn{
     font-size: 22px;
     border-color: grey;
@@ -40,3 +40,20 @@ body{
 #values{
     background-color: #f6f6f6;
 }
+
+
+.services-box  .services-fa{
+    font-size: 50px !important;
+    color: #f4511e;
+}
+.services-box{
+    text-align: center;
+}
+.services-box h5{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+
