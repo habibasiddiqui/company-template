@@ -91,6 +91,7 @@ body{
 
 .priceList>div{
     width: 90%;
+
 }
 
 #priceTable {
@@ -111,6 +112,11 @@ body{
 
 #priceTable tbody{
     border-bottom: 1px solid #ccc;
+
+}
+#priceTable tfoot{
+padding-bottom: 30px;
+margin-bottom: 30px;
 
 }
 #priceTable .signUp-btn{
@@ -135,3 +141,26 @@ body{
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
 
+
+#contact {
+      background-color: #f6f6f6;
+}
+#contactUs input[type=text]:focus, #contactUs input[type=email]:focus, #contactUs textarea:focus, #buyTickets input[type=text]:focus, #buyTickets input[type=email]:focus {
+    box-shadow: none;
+}
+.send-btn-div{
+    float: right;
+}
+.send-btn{
+border: 1px solid grey ;
+background-color: white;
+}
+.send-btn:hover{
+    /* border: 1px solid grey ; */
+    background-color: #f6f6f6;
+}
+.send-btn:focus{
+    background-color: #f6f6f6;
+    border-style: inset;
+    
+}
